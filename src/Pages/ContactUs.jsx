@@ -4,8 +4,8 @@ import Map from "../ContactUs.jsx/Map";
 export default function ContactUs() {
     return(
         <>
-        <Support/>
-        <Ethics/>
+        {/* <Support/>
+        <Ethics/> */}
         <Map/>
         </>
 

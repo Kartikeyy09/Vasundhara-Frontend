@@ -7,13 +7,13 @@ export default function Ethics() {
         {/* Left Content */}
         <div>
           <h3 className="text-xl font-semibold text-green-900 mb-2">
-            Bhumi Care
+            NGO Care
           </h3>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-snug">
             Ethics <span className="text-green-900">Committee</span>
           </h1>
           <p className="text-gray-700 leading-relaxed mb-8 text-base md:text-lg">
-            The Ethics committee at Bhumi addresses ethical issues. All Physical
+            The Ethics committee at NGO addresses ethical issues. All Physical
             / Mental / Emotional / Sexual Harassment of: Bhumians including
             Volunteers and Employees, complaints will have to be reported to the
             POSH committee. Please note: Confidentiality is guaranteed and your

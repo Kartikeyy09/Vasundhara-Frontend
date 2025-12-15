@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Keep print output identical to screen */
+@media print {
+
+    html,
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Force exact colors in print */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Avoid splitting table rows across pages */
+    table {
+        break-inside: auto;
+    }
+
+    tr,
+    td,
+    th {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    /* Hide things you don't want in print (optional) */
+    .no-print {
+        display: none !important;
+    }
+}
+
+/* A4-sized pages with a comfortable margin for both print and Save-as-PDF */
+@page {
+    size: A4;
+    margin: 10mm;
+}

@@ -12,7 +12,7 @@ export default {
         DEFAULT: "1rem", // sabhi screen ke liye by default
         sm: "2rem",      // sm aur upar
         md: "3rem",      // md aur upar
-        lg: "4rem",      // lg aur upar
+        lg: "3rem",      // lg aur upar
         xl: "5rem",      // xl aur upar
         "2xl": "6rem",   // 2xl aur upar
       },
