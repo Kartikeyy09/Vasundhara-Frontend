@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import LoadingSpinner from "../../common/LoadingSpinner";
 import Sidebar from "../../AdminPannel/Components/Sidebar";
 // import Navbar from "../../Navbar";
-import Navbar from "./NavBar";
+import Navbar from "./Navbar";
 import ProtectedRoute from "../../common/ProtectedRoute";
 import { useAuth } from "../../context/AuthContext";
 // import ProtectedRoute from "../../components/ProtectedRoute/ProtectedRoute";
