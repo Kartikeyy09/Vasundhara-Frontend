@@ -21,7 +21,7 @@ import Team from "./About/Team";
 import ContactUs from "./Pages/ContactUs";
 
 // Admin Imports
-import AdminLayout from "./Pages/layout/AdminLayout";
+import AdminLayout from "./Pages/Layout/AdminLayout";
 import Dashboard from "./AdminPannel/Components/Dashboard";
 import Login from "./AdminPannel/Components/Login";
 import AdminHome from "./AdminPannel/AdminHome";
