@@ -28,7 +28,7 @@ import AdminHome from "./AdminPannel/AdminHome";
 import AdminAbout from "./AdminPannel/AdminAbout";
 import AdminVisionMission from "./AdminPannel/AdminVisionMission";
 import AdminTeam from "./AdminPannel/AdminTeam";
-import AdminOurWork from "./AdminPannel/AdminOurWork";
+import AdminOurWork from "./AdminPannel/AdminOurwork";
 import AdminContact from "./AdminPannel/AdminContactUs";
 import AdminSettings from "./AdminPannel/AdminSettings";
 import AdminProfile from "./AdminPannel/AdminProfile";
